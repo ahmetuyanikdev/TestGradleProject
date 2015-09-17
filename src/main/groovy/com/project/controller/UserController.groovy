@@ -39,6 +39,7 @@ class UserController {
         User user = userService.getUser(id)
         if(user){
            user
+
         }
         else {
             throw new NotFoundException("User is not found for the id ${id}")
